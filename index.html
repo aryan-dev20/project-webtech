@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Most Liked Websites - AryanTech</title>
+</head>
+
+<body id="darkmode" onload="show('div-1')">
+
+    <div id="toggle-btn">
+        <label class="inline-flex items-center mb-5 cursor-pointer">
+            <input id="checkbox" type="checkbox" value="" class="sr-only peer">
+            <div
+                class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+            </div>
+            <span id="toggle-text" class="ms-3 text-sm font-medium ">Dark Mode</span>
+        </label>
+    </div>
+
+    <div id="navbar" class="dark-bg">
+        <div id="nav-left">
+            <b>AryanTech</b>
+            <a href="">Product</a>
+            <a href="">Marketplace</a>
+            <a href="">Learn</a>
+            <a href="">Resources</a>
+        </div>
+
+        <div id="nav-right">
+            <a href="">Login</a>
+            <a href="">Contact Sales</a>
+            <a href="" class="btn">Get Started - it's free</a>
+        </div>
+        <div id="ham">
+            <button>☰</button>
+        </div>
+    </div>
+
+    <div id="hero-section">
+        <div>
+            <a href="" class="btn">Made by Aryan</a>
+            <h1>Discover inspiring websites <br> built by the <span class="text-blue">AryanTech community.</span>
+            </h1>
+
+            <p>Browse, clone, and customize thousands of websites #MadeinWebTech. <a class="a-colr" href="">Looking for
+                    templates?</a>
+            </p>
+
+            <input type="search" placeholder="🔍Search">
+        </div>
+        <div class="center">
+            <button onclick="show('div-1')">All</button>
+            <button onclick="show('div-2')">Animation</button>
+            <button>Interaction</button>
+            <button>CMS</button>
+            <button>Ecommerce</button>
+            <button>Portfolio</button>
+        </div>
+    </div>
+    <div id="div-1">
+        <h1 class="text">All</h1>
+        <div class="container">
+            <img src="img/web1.png" alt="">
+            <img src="img/web2.png" alt="">
+            <img src="img/web3.png" alt="">
+
+            <img src="img/web4.png" alt="">
+            <img src="img/web5.png" alt="">
+            <img src="img/web6.png" alt="">
+
+        </div>
+    </div>
+    <div id="div-2">
+        <h1 class="text">Animation</h1>
+        <div class="container">
+            <img src="img/web6.png" alt="">
+            <img src="img/web5.png" alt="">
+            <img src="img/web4.png" alt="">
+
+            <img src="img/web3.png" alt="">
+            <img src="img/web2.png" alt="">
+            <img src="img/web1.png" alt="">
+        </div>
+    </div>
+    <button class="btn">Show More</button>
+
+
+    <div id="footer">
+        <h1>A Project By Aryan <br> <a href="">Instagram</a> / <a href="">Linkdien</a> / <a href="">Github</a> </h1>
+        <hr>
+        <div class="footer-grid">
+            <div class="f-flex">
+                <b>Explore</b>
+                <a>Marketplace</a>
+                <a>Dashboard</a>
+                <a>Hire Designers</a>
+            </div>
+            <div class="f-flex">
+                <b>Learn & get help</b>
+                <a>Support</a>
+                <a>University</a>
+                <a>Courses</a>
+                <a>Blog </a>
+                <a>Ebooks</a>
+                <a>Forum</a>
+            </div>
+            <div class="f-flex">
+                <b>Company</b>
+                <a>About</a>
+                <a>Careers</a>
+                <a>Become an Affiliate</a>
+                <br>
+                <b>Terms & policy</b>
+                <a href="">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</body>
+
+</html>
